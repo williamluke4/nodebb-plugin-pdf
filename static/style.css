@@ -1,0 +1,58 @@
+iframe.pdf-plugin {
+	border: 0;
+	height: 785px;
+	width: 640px;
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (max-width : 321px) {
+
+	iframe.pdf-plugin {
+	border: 0;
+	height: 180px;
+	width: 100%;
+	}
+
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+
+	iframe.pdf-plugin {
+	border: 0;
+	height: 180px;
+	width: 100%;
+	}
+
+}
+
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1000px)
+and (orientation : landscape) {
+
+	iframe.pdf-plugin {
+	border: 0;
+	height: 360px;
+	width: 100%;
+	}
+
+}
+
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+	
+	iframe.pdf-plugin {
+	border: 0;
+	height: 360px;
+	width: 100%;
+	}
+	
+}
+

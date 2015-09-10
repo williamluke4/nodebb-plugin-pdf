@@ -1,0 +1,15 @@
+{
+    "id": "nodebb-plugin-pdf",
+    "name": "NodeBB PDF Plugin",
+    "description": "NodeBB Plugin that allows users to embed PDF documents inline in their posts.",
+    "url": "https://github.com/williamluke4",
+    "library": "./library.js",
+    "hooks": [
+        {
+            "hook": "filter:parse.post", "method": "parse", "priority": 6
+        }
+    ],
+    "css": [
+        "static/style.css"
+    ]
+}

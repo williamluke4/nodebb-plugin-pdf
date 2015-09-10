@@ -1,0 +1,15 @@
+{
+  "name": "nodebb-plugin-pdf",
+  "version": "0.1.1",
+  "description": "NodeBB PDF Plugin",
+  "main": "library.js",
+  
+  "author": {
+    "name": "williamluke",
+    "email": "hp1350@gmail.com"
+  },
+  "nbbpm": {
+    "compatibility": "^0.6.0"
+  }
+
+}
